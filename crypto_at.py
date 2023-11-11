@@ -33,8 +33,8 @@ df = get_data(crypto_selected, start)
 
 st.title(f"Selected crypto: {crypto_selected}")
 st.write(
-    "This app allows you to analyze the performance of Dollar-Cost Averaging (DCA) and Lump Sum investment strategies for a selected cryptocurrency. "
-    "Choose a cryptocurrency, set a start date, and select indicators to visualize on the price chart. Indicators can be selected from the sidebar, and their descriptions will appear below the main chart."
+    "This app helps you to analyze a cryptocurrency with trading indicators. "
+    "Choose a cryptocurrency, set a start date, and select indicators to visualize on the price chart. Indicators can be selected from the sidebar, and their descriptions will appear below the main chart or above."
 )
 # Explanation of indicators
 if "SMA" in indicator_selected:
