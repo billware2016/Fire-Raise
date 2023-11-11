@@ -32,6 +32,32 @@ df = get_data(crypto_selected, start)
 
 
 st.title(f"Selected crypto: {crypto_selected}")
+st.write(
+    "This app allows you to analyze the performance of Dollar-Cost Averaging (DCA) and Lump Sum investment strategies for a selected cryptocurrency. "
+    "Choose a cryptocurrency, set a start date, and select indicators to visualize on the price chart. Indicators can be selected from the sidebar, and their descriptions will appear below the main chart."
+)
+# Explanation of indicators
+if "SMA" in indicator_selected:
+    st.write("### Simple Moving Average (SMA)")
+    st.write("The Simple Moving Average is a trend-following indicator that calculates the average price of an asset over a specified time period. The SMA is useful for smoothing price data and identifying trends.")
+    
+if "MACD" in indicator_selected:
+    st.write("### Moving Average Convergence Divergence (MACD)")
+    st.write("The MACD is a trend-following momentum indicator that shows the relationship between two moving averages of an asset's price. It consists of the MACD line, signal line, and histogram. It is used to identify potential trend reversals and momentum strength.")
+
+if "Bollinger Bands" in indicator_selected:
+    st.write("### Bollinger Bands")
+    st.write("Bollinger Bands consist of a middle band being an N-period simple moving average (SMA), an upper band at K times an N-period standard deviation above the middle band, and a lower band at K times an N-period standard deviation below the middle band. They are used to identify volatility and potential trend reversals.")
+
+if "RSI" in indicator_selected:
+    st.write("### Relative Strength Index (RSI)")
+    st.write("The Relative Strength Index is a momentum oscillator that measures the speed and change of price movements. RSI values range from 0 to 100, and readings above 70 indicate that an asset may be overbought, while readings below 30 suggest that it may be oversold.")
+
+if "Stochastic Oscillator" in indicator_selected:
+    st.write("### Stochastic Oscillator")
+    st.write("The Stochastic Oscillator is a momentum indicator that shows the location of the close relative to the high-low range over a set number of periods. The %K line is the main line, and the %D line is its signal line. Readings above 80 suggest overbought conditions, while readings below 20 suggest oversold conditions.")
+
+
 
 # Función para trazar el gráfico de precios
 
