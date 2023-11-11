@@ -56,7 +56,7 @@ performance_LS = (df_tog["Portfolio_LS"][-1] / (investment * len(buyprices)) - 1
 # Display de gráficos y performance
 st.write("st.write(
     "This app allows you to analyze the performance of Dollar-Cost Averaging (DCA) and Lump Sum investment strategies for a selected cryptocurrency."
-    "Choose a crypto, select a start date and put an investment mont in the sidebar. The performance of the stretagies will appear below."
+    "Choose a crypto, select a start date and put an investment mont in the sidebar. The performance of the stretagies will appear below.")
 st.markdown("### Dollar-Cost Averaging (DCA)")
 st.write(
     "DCA is an investment strategy where you regularly invest a fixed amount of money, "
