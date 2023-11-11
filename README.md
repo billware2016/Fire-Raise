@@ -2,7 +2,7 @@
 Dive into crypto with Fire&amp;Raise: 35+ assets, real-time analytics, interactive charts, and investment simulations. Elevate your strategy effortlessly
 Introducing "Fire&Raise" – Your Premier Streamlit App for Cryptocurrency Enthusiasts
 
-Embark on a journey through the dynamic world of cryptocurrencies with Fire&Raise, a cutting-edge Streamlit application designed to empower users with comprehensive insights into over 200 digital assets. Immerse yourself in a seamless interface divided into three distinct sections, each tailored to elevate your understanding and strategic approach to cryptocurrency investments.
+Embark on a journey through the dynamic world of cryptocurrencies with Fire&Raise, a cutting-edge Streamlit application designed to empower users with comprehensive insights into over 35+ digital assets. Immerse yourself in a seamless interface divided into three distinct sections, each tailored to elevate your understanding and strategic approach to cryptocurrency investments.
 
 1. Descriptive Analytics: Unveiling Crypto Volatility
 
