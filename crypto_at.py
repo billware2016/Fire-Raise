@@ -30,12 +30,11 @@ def get_data(symbol, start):
 # Creamos el dataframe
 df = get_data(crypto_selected, start)
 
-
-st.title(f"Selected crypto: {crypto_selected}")
 st.write(
     "This app helps you to analyze a cryptocurrency with trading indicators. "
     "Choose a cryptocurrency, set a start date, and select indicators to visualize on the price chart. Indicators can be selected from the sidebar, and their descriptions will appear below the main chart or above."
 )
+st.title(f"Selected crypto: {crypto_selected}")
 # Explanation of indicators
 if "SMA" in indicator_selected:
     st.write("### Simple Moving Average (SMA)")
