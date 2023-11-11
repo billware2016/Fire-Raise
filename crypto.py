@@ -3,6 +3,8 @@ import streamlit as st
 logo_image = "logo.png"
 
 st.title("Welcome to Fire&Rise")
+st.write("Dive into crypto with Fire&Raise: 35+ assets, real-time analytics, interactive charts, and investment simulations.
+Elevate your strategy effortlessly Introducing "Fire&Raise" – Your Premier Streamlit App for Cryptocurrency Enthusiasts")
 st.subheader("Select the application you'd like to explore:")
 
 apps = {
