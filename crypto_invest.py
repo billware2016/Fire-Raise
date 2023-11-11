@@ -54,8 +54,20 @@ df_tog["Portfolio_LS"] = df_tog.coin_amt_LS * df_tog.Close
 performance_LS = (df_tog["Portfolio_LS"][-1] / (investment * len(buyprices)) - 1)
 
 # Display de gráficos y performance
+st.sidebar.markdown("### Dollar-Cost Averaging (DCA)")
+st.sidebar.write(
+    "DCA is an investment strategy where you regularly invest a fixed amount of money, "
+    "regardless of the asset's price. This approach aims to reduce the impact of market volatility "
+    "by spreading investments over time, potentially minimizing the risk of making poor investment decisions."
+)
 st.subheader("DCA performance: " + str(round(performance_DCA * 100, 2)) + " %")
 st.line_chart(df_tog["Portfolio_DCA"])
+
+st.sidebar.markdown("### Lump Sum Investment")
+st.sidebar.write(
+    "Lump Sum investment involves investing the entire amount of money upfront in a single transaction. "
+    "This strategy assumes that the investor can accurately time the market and make the investment at an optimal entry point."
+)
 st.subheader("LS performance: " + str(round(performance_LS * 100, 2)) + " %")
 st.line_chart(df_tog["Portfolio_LS"])
 
